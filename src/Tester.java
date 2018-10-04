@@ -19,7 +19,7 @@ public class Tester {
                         String x = s.nextLine();
                         test = new Encrypt(x, 3);
                         System.out.println("\nHere is your text encrypted via Caesar Substitution Cipher:");
-                        System.out.println(test.Encryption());
+                        System.out.println(test.Caesar());
                         System.out.println("\nMake another selection (a,b,c)");
                         break;
                     case "b":

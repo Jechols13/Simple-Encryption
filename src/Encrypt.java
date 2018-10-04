@@ -15,7 +15,7 @@ public class Encrypt {
        cipherText = new StringBuilder();
    }
 
-   public String Encryption(){
+   public String Caesar(){
        for(int i=0; i < plainText.length(); i++){
            int num = alphabet.indexOf(plainText.charAt(i));
            cipherText.append(alphabet.charAt((num + cipherAmount)%26));
